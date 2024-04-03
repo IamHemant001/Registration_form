@@ -45,3 +45,16 @@ input{
 .login{
     margin: 2vh 8vh;
 }
+
+@media only screen and (max-width: 480px) {
+    .regBox{
+        width: 50vh;
+        padding: 1rem 1.1rem;
+    }
+    .name{
+        width: 42.8vh;
+    }
+    .login {
+        margin: 2vh 2vh;
+    }
+  }

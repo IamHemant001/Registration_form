@@ -75,3 +75,18 @@ label{
 
 }
 
+@media only screen and (max-width: 480px) {
+    .regBox{
+        width: 54vh;
+        padding: 1rem 1.1rem;
+    }
+    .name{
+        width: 46.4vh;
+    }
+    #forgetPass{
+        margin-left: 28vh;
+    }
+    .login {
+        margin: 2vh 5vh;
+    }
+  }
