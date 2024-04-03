@@ -21,11 +21,15 @@ app.use(methodOverride("_method"));
 
 // Mongoose
 async function main() {
-    await mongoose.connect(process.env.MONGO_URL);
+    try {
+        await mongoose.connect(process.env.MONGO_URL);
+        console.log("Connection Successful");
+    } catch (error) {
+        console.error("Error connecting to MongoDB:", error);
+    }
 }
-  
-main().then(res=>console.log("Connection Successful"))
-.catch(err => console.log(err));  
+
+main(); 
 
 app.get("/register",(req,res)=>{
     res.render("register.ejs");
