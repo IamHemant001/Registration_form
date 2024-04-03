@@ -4,6 +4,7 @@
   "description": "It is a registration page build using html,css,js,nodejs,mongodb,expressjs",
   "main": "index.js",
   "scripts": {
+    "start" : "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hemanth kumar",
