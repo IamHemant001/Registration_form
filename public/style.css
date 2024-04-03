@@ -48,13 +48,17 @@ input{
 
 @media only screen and (max-width: 480px) {
     .regBox{
-        width: 50vh;
+        width: 45vh;
         padding: 1rem 1.1rem;
     }
     .name{
-        width: 42.8vh;
+        width: 38.8vh;
     }
     .login {
         margin: 2vh 2vh;
+    }
+    label{
+        font-size: 0.8rem;
+        font-weight: 500;
     }
   }
