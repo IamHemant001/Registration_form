@@ -27,10 +27,10 @@ Add the following variables to the .env file:
 
 Usage
 Start the server: npm start
-Open your web browser and go to http://localhost:3000/register to access the registration form.
+Open your web browser and go to https://registration-form-af4u.onrender.com/register to access the registration form.
 Fill out the registration form with your username, email, and password.
 Click the "Register" button to submit the form.
-To login, go to http://localhost:3000/login and enter your email and password.
+To login, go to https://registration-form-af4u.onrender.com/login and enter your email and password.
 If you forgot your password, click on "Forgot Password?" and follow the instructions to reset your password.
 
 Deployment
